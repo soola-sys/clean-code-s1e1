@@ -43,16 +43,16 @@
           </li>
         </ul>
       </section>
-      <section class="main__section-completed">
-        <h3>Completed</h3>
-        <ul id="completed-tasks">
-          <li>
+      <section class="main__section-completed section-completed">
+        <h3 class="section-completed__title">Completed</h3>
+        <ul class="section-completed__completed-tasks completed-tasks">
+          <li class="completed-tasks__item"> 
             <input type="checkbox" checked>
-            <label class="task">See the Doctor</label>
-            <input type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete">
-              <img src="./remove.svg">
+            <label class="completed-tasks__label task">See the Doctor</label>
+            <input type="text" class="completed-tasks__input task">
+            <button class="completed-tasks__button button_edit edit">Edit</button>
+            <button class="completed-tasks__button button_delete delete">
+              <img src="./remove.svg" class="completed-tasks__image">
             </button>
           </li>
         </ul>
