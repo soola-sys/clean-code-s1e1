@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <div class="details">
       <img src="./eisenhower-matrix.jpg" class="details__image">
       <a class="details__link" href="https://goal-life.com/page/method/matrix-eisenhower"> 
@@ -17,18 +17,18 @@
         <label class="section-add__label" for="new-task">Add Item</label>
         <div class="section-add__task-wrapper">
           <input class="section-add__input task" id="new-task" type="text">
-          <button class="secton-add__button">Add</button>
+          <button class="button secton-add__button">Add</button>
         </div>
       </section>
       <section class="main__section-todo section-todo">
-        <h3 class="section-todo__title">Todo</h3>
+        <h3 class="section-todo__title title">Todo</h3>
         <ul class="section-todo__incomplete-tasks incomplete-tasks">
           <li class="incomplete-tasks__item">
             <input type="checkbox">
             <label class="incomplete-tasks__label task">Pay Bills</label>
             <input type="text" class="incomplete-tasks__input task">
-            <button class="incomplete-tasks__button button_edit edit">Edit</button>
-            <button class="incomplete-tasks__button button_delete delete">
+            <button class="button incomplete-tasks__button edit">Edit</button>
+            <button class="button incomplete-tasks__button delete">
               <img src="./remove.svg" class="incomplete-tasks__image" alt="delete-img">
             </button>
           </li>
@@ -36,22 +36,22 @@
             <input type="checkbox">
             <label class="incomplete-tasks__label task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="incomplete-tasks__input task">
-            <button class="incomplete-tasks__button button_edit edit">Save</button>
-            <button class="incomplete-tasks__button button_delete delete">
+            <button class="button incomplete-tasks__button edit">Save</button>
+            <button class="button incomplete-tasks__button delete">
               <img src="./remove.svg" class="incomplete-tasks__image" alt="delete-img">
             </button>
           </li>
         </ul>
       </section>
       <section class="main__section-completed section-completed">
-        <h3 class="section-completed__title">Completed</h3>
+        <h3 class="section-completed__title title">Completed</h3>
         <ul class="section-completed__completed-tasks completed-tasks">
           <li class="completed-tasks__item"> 
             <input type="checkbox" checked>
             <label class="completed-tasks__label task">See the Doctor</label>
             <input type="text" class="completed-tasks__input task">
-            <button class="completed-tasks__button button_edit edit">Edit</button>
-            <button class="completed-tasks__button button_delete delete">
+            <button class="button completed-tasks__button edit">Edit</button>
+            <button class="button completed-tasks__button delete">
               <img src="./remove.svg" class="completed-tasks__image" alt="delete-img">
             </button>
           </li>
