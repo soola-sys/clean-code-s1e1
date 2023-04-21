@@ -14,9 +14,9 @@
     </div>
     <main class="main">
       <section class="main__section-add section-add">
-        <label class="section-add__label" for="new-task">Add Item</label>
+        <label class="label section-add__label" for="new-task">Add Item</label>
         <div class="section-add__task-wrapper">
-          <input class="section-add__input task" id="new-task" type="text">
+          <input class="input section-add__input input_text task" id="new-task" type="text">
           <button class="button secton-add__button">Add</button>
         </div>
       </section>
@@ -25,8 +25,8 @@
         <ul class="section-todo__incomplete-tasks incomplete-tasks">
           <li class="incomplete-tasks__item">
             <input type="checkbox">
-            <label class="incomplete-tasks__label task">Pay Bills</label>
-            <input type="text" class="incomplete-tasks__input task">
+            <label class="label incomplete-tasks__label task">Pay Bills</label>
+            <input type="text" class="label incomplete-tasks__input input_text task">
             <button class="button incomplete-tasks__button edit">Edit</button>
             <button class="button incomplete-tasks__button delete">
               <img src="./remove.svg" class="incomplete-tasks__image" alt="delete-img">
@@ -34,8 +34,8 @@
           </li>
           <li class="incomplete-tasks__item edit-mode">
             <input type="checkbox">
-            <label class="incomplete-tasks__label task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="incomplete-tasks__input task">
+            <label class="label incomplete-tasks__label task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="input incomplete-tasks__input input_text task">
             <button class="button incomplete-tasks__button edit">Save</button>
             <button class="button incomplete-tasks__button delete">
               <img src="./remove.svg" class="incomplete-tasks__image" alt="delete-img">
@@ -48,8 +48,8 @@
         <ul class="section-completed__completed-tasks completed-tasks">
           <li class="completed-tasks__item"> 
             <input type="checkbox" checked>
-            <label class="completed-tasks__label task">See the Doctor</label>
-            <input type="text" class="completed-tasks__input task">
+            <label class="label completed-tasks__label task">See the Doctor</label>
+            <input type="text" class="input completed-tasks__input input_text task">
             <button class="button completed-tasks__button edit">Edit</button>
             <button class="button completed-tasks__button delete">
               <img src="./remove.svg" class="completed-tasks__image" alt="delete-img">
