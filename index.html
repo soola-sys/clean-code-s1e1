@@ -24,21 +24,21 @@
         <h3 class="section-todo__title title">Todo</h3>
         <ul class="section-todo__incomplete-tasks incomplete-tasks">
           <li class="incomplete-tasks__item task-container">
-            <input type="checkbox">
+            <input type="checkbox" class="input incomplete-tasks__input input_checkbox">
             <label class="label incomplete-tasks__label task">Pay Bills</label>
             <input type="text" class="label incomplete-tasks__input input_text task">
             <button class="button incomplete-tasks__button edit">Edit</button>
             <button class="button incomplete-tasks__button delete">
-              <img src="./remove.svg" class="incomplete-tasks__image" alt="delete-img">
+              <img src="./remove.svg" class="incomplete-tasks__image image__delete" alt="delete-img">
             </button>
           </li>
           <li class="incomplete-tasks__item task-container edit-mode">
-            <input type="checkbox">
+            <input type="checkbox" class="input incomplete-tasks__input input_checkbox">
             <label class="label incomplete-tasks__label task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="input incomplete-tasks__input input_text task">
             <button class="button incomplete-tasks__button edit">Save</button>
             <button class="button incomplete-tasks__button delete">
-              <img src="./remove.svg" class="incomplete-tasks__image" alt="delete-img">
+              <img src="./remove.svg" class="incomplete-tasks__image image__delete" alt="delete-img">
             </button>
           </li>
         </ul>
@@ -47,12 +47,12 @@
         <h3 class="section-completed__title title">Completed</h3>
         <ul class="section-completed__completed-tasks completed-tasks">
           <li class="completed-tasks__item task-container"> 
-            <input type="checkbox" checked>
+            <input type="checkbox" class="input completed-tasks__input input_checkbox" checked>
             <label class="label completed-tasks__label task">See the Doctor</label>
             <input type="text" class="input completed-tasks__input input_text task">
             <button class="button completed-tasks__button edit">Edit</button>
             <button class="button completed-tasks__button delete">
-              <img src="./remove.svg" class="completed-tasks__image" alt="delete-img">
+              <img src="./remove.svg" class="completed-tasks__image image__delete" alt="delete-img">
             </button>
           </li>
         </ul>
