@@ -12,15 +12,15 @@
         Want more details?
       </a>
     </div>
-    <main class="centered-main-page-element">
-      <section id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
-          <button>Add</button>
+    <main class="main">
+      <section id="section-add-id" class="main__section-add section-add">
+        <label for="new-task" class="section-add__label">Add Item</label>
+        <div class="section-add__task-wrapper">
+          <input id="new-task" class="section-add__input task" type="text">
+          <button class="secton-add__button">Add</button>
         </div>
       </section>
-      <section>
+      <section class="main__section-todo">
         <h3>Todo</h3>
         <ul id="incompleteTasks">
           <li>
@@ -43,7 +43,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="main__section-completed">
         <h3>Completed</h3>
         <ul id="completed-tasks">
           <li>
