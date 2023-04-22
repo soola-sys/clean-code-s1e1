@@ -132,21 +132,21 @@ h3 {
 }
 
 /* Completed */
-ul.completed-tasks label {
+.completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task-container .input_text {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .input_text {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .label {
   display: none;
 }
